@@ -31,6 +31,7 @@ class MainActivity : ComponentActivity() {
             MyTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     MyApp()
+
                 }
             }
         }
